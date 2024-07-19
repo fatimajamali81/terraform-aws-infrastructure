@@ -1,4 +1,3 @@
-# terraform-aws-infrastructure
 # Terraform AWS Infrastructure
 
 This repository contains Terraform scripts to provision a variety of AWS infrastructure components, including VPC, EC2 instances, RDS, IAM roles, Security Groups, Elastic IPs, and CloudWatch alarms.
