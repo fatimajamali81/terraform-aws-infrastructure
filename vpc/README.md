@@ -22,13 +22,4 @@ This module creates a Virtual Private Cloud (VPC) with multiple subnets in speci
 
 ## Usage
 
-To use this module, include it in your root module configuration:
-
-```hcl
-module "vpc" {
-  source             = "./vpc"
-  cidr_block         = var.vpc_cidr_block
-  vpc_name           = var.vpc_name
-  subnets            = var.vpc_subnets
-  availability_zones = var.availability_zones
-}
+To use this module, include it in your root module configuration as described in the root main.tf file.
